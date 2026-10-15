@@ -1,0 +1,64 @@
+Xcode user-specific settings
+
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+Build products
+
+build/
+DerivedData/
+*.app
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+Swift Package Manager
+
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+
+CocoaPods
+
+Pods/
+
+Carthage
+
+Carthage/Build/
+
+Fastlane
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+macOS system files
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+Xcode project user settings
+
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xccheckout
+*.moved-aside
+
+Secrets and credentials
+
+.env
+.env.*
+!.env.example
+*.p12
+*.mobileprovision
+
+Logs
+
+*.log
+EOF
